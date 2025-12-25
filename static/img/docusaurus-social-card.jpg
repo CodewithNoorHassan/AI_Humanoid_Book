@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bgGradient)" />
+
+  <!-- Title -->
+  <text x="640" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" fill="white" font-weight="bold">
+    AI-Humanoid Technical Book
+  </text>
+
+  <text x="640" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#94a3b8">
+    Understanding ROS 2 as a Robotic Nervous System
+  </text>
+
+  <!-- Decorative elements -->
+  <circle cx="200" cy="150" r="80" fill="#6366f1" opacity="0.2" />
+  <circle cx="1080" cy="490" r="60" fill="#4f9cf9" opacity="0.2" />
+
+  <!-- Robot icon -->
+  <rect x="590" y="380" width="100" height="100" rx="20" fill="#818cf8" opacity="0.8" />
+  <circle cx="625" cy="415" r="10" fill="white" />
+  <circle cx="665" cy="415" r="10" fill="white" />
+  <circle cx="625" cy="415" r="5" fill="#1e293b" />
+  <circle cx="665" cy="415" r="5" fill="#1e293b" />
+
+  <!-- Neural network visualization -->
+  <circle cx="550" cy="450" r="6" fill="#a5b4fc" />
+  <circle cx="600" cy="470" r="6" fill="#a5b4fc" />
+  <circle cx="650" cy="460" r="6" fill="#a5b4fc" />
+  <circle cx="700" cy="440" r="6" fill="#a5b4fc" />
+
+  <line x1="550" y1="450" x2="600" y2="470" stroke="#a5b4fc" stroke-width="2" opacity="0.6" />
+  <line x1="600" y1="470" x2="650" y2="460" stroke="#a5b4fc" stroke-width="2" opacity="0.6" />
+  <line x1="650" y1="460" x2="700" y2="440" stroke="#a5b4fc" stroke-width="2" opacity="0.6" />
+</svg>

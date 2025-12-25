@@ -1,0 +1,24 @@
+{
+  "id": "vla-integration/vla-systems",
+  "title": "Vision-Language-Action System Integration",
+  "description": "Overview",
+  "source": "@site/docs/vla-integration/vla-systems.md",
+  "sourceDirName": "vla-integration",
+  "slug": "/vla-integration/vla-systems",
+  "permalink": "/Ai_Humanoid_Book/docs/vla-integration/vla-systems",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/vla-systems.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LLM-Based Cognitive Planning",
+    "permalink": "/Ai_Humanoid_Book/docs/vla-integration/llm-planning"
+  },
+  "next": {
+    "title": "Capstone: Autonomous Humanoid with Voice Commands and Manipulation",
+    "permalink": "/Ai_Humanoid_Book/docs/vla-integration/capstone-project"
+  }
+}

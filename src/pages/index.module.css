@@ -1,0 +1,342 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.heroText {
+  flex: 1;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .heroText {
+    max-width: 100%;
+  }
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  margin: 1rem 0 2rem 0;
+  opacity: 0.9;
+}
+
+.heroImage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    justify-content: center;
+  }
+}
+
+/* Modern Button Styles */
+.button {
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+  z-index: -1;
+}
+
+.button:hover::before {
+  transform: translateX(100%);
+}
+
+.button--secondary {
+  background: white;
+  color: #3578e5 !important;
+  box-shadow: 0 4px 15px rgba(53, 120, 229, 0.3);
+}
+
+.button--secondary:hover {
+  background: white;
+  color: #1d4ed8 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(53, 120, 229, 0.4);
+}
+
+.button--primary {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white !important;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.button--primary:hover {
+  background: linear-gradient(45deg, #5a6fd8, #6a4190);
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.button--lg {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+}
+
+/* CTA Buttons */
+.ctaButtons .button--primary {
+  background: linear-gradient(45deg, #2c3e50, #34495e);
+  box-shadow: 0 4px 15px rgba(44, 62, 80, 0.4);
+}
+
+.ctaButtons .button--primary:hover {
+  background: linear-gradient(45deg, #1a252f, #2c3a47);
+  box-shadow: 0 6px 20px rgba(44, 62, 80, 0.5);
+}
+
+.ctaButtons .button--secondary {
+  background: rgba(255, 255, 255, 0.15);
+  color: white !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ctaButtons .button--secondary:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: white !important;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Modules Section */
+.modulesSection {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.sectionSubtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.moduleCard {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.moduleCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.moduleIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.moduleTitle {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.moduleDescription {
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.moduleLink {
+  display: inline-block;
+  color: #3578e5;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #3578e5;
+  background: transparent;
+}
+
+.moduleLink:hover {
+  color: white;
+  background: #3578e5;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(53, 120, 229, 0.3);
+}
+
+/* Stats Section */
+.statsSection {
+  padding: 3rem 0;
+  background-color: white;
+}
+
+.statItem {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.statItem:hover {
+  transform: translateY(-5px);
+  background: rgba(53, 120, 229, 0.05);
+}
+
+.statNumber {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3578e5;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.ctaSubtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .heroImage {
+    max-width: 100%;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .modulesSection {
+    padding: 2rem 0;
+  }
+
+  .statsSection {
+    padding: 2rem 0;
+  }
+
+  .ctaSection {
+    padding: 2rem 0;
+  }
+
+  .ctaTitle {
+    font-size: 2rem;
+  }
+}

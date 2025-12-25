@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .link { fill: #e3f2fd; stroke: #2196f3; stroke-width: 2; }
+    .joint { fill: #f3e5f5; stroke: #9c27b0; stroke-width: 2; }
+    .connection { stroke: #000; stroke-width: 2; stroke-dasharray: 5,5; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .label { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+  </style>
+
+  <!-- Title -->
+  <text x="400" y="30" class="text" font-weight="bold">URDF Structure: Links and Joints</text>
+
+  <!-- Robot Structure Visualization -->
+  <!-- Torso -->
+  <rect x="350" y="100" width="100" height="150" class="link" rx="10" ry="10"/>
+  <text x="400" y="130" class="text">torso</text>
+  <text x="400" y="150" class="label">Link</text>
+
+  <!-- Head -->
+  <circle cx="400" cy="60" r="40" class="link"/>
+  <text x="400" y="65" class="text">head</text>
+  <text x="400" y="80" class="label">Link</text>
+
+  <!-- Left Arm -->
+  <rect x="470" y="120" width="30" height="100" class="link" rx="15" ry="15"/>
+  <text x="485" y="150" class="text">upper</text>
+  <text x="485" y="170" class="label">arm</text>
+
+  <rect x="470" y="220" width="25" height="80" class="link" rx="12" ry="12"/>
+  <text x="482" y="250" class="text">lower</text>
+  <text x="482" y="270" class="label">arm</text>
+
+  <!-- Joints -->
+  <!-- Neck Joint -->
+  <circle cx="400" cy="100" r="10" class="joint"/>
+  <text x="400" y="105" class="label">neck</text>
+  <text x="400" y="115" class="label">Joint</text>
+
+  <!-- Shoulder Joint -->
+  <circle cx="450" cy="140" r="10" class="joint"/>
+  <text x="450" y="145" class="label">shoulder</text>
+  <text x="450" y="155" class="label">Joint</text>
+
+  <!-- Elbow Joint -->
+  <circle cx="485" cy="220" r="10" class="joint"/>
+  <text x="485" y="225" class="label">elbow</text>
+  <text x="485" y="235" class="label">Joint</text>
+
+  <!-- Connections -->
+  <line x1="400" y1="60" x2="400" y2="100" class="connection"/>
+  <line x1="400" y1="140" x2="450" y2="140" class="connection"/>
+  <line x1="485" y1="170" x2="485" y2="220" class="connection"/>
+
+  <!-- URDF Tree Structure -->
+  <text x="150" y="350" class="text" font-weight="bold">URDF Tree Structure</text>
+
+  <!-- Tree Nodes -->
+  <rect x="100" y="400" width="100" height="40" class="link"/>
+  <text x="150" y="425" class="text">base_link</text>
+
+  <rect x="50" y="500" width="100" height="40" class="link"/>
+  <text x="100" y="525" class="text">left_wheel</text>
+
+  <rect x="150" y="500" width="100" height="40" class="link"/>
+  <text x="200" y="525" class="text">right_wheel</text>
+
+  <rect x="250" y="450" width="100" height="40" class="link"/>
+  <text x="300" y="475" class="text">torso</text>
+
+  <rect x="350" y="500" width="100" height="40" class="link"/>
+  <text x="400" y="525" class="text">head</text>
+
+  <rect x="450" y="450" width="100" height="40" class="link"/>
+  <text x="500" y="475" class="text">upper_arm</text>
+
+  <rect x="550" y="500" width="100" height="40" class="link"/>
+  <text x="600" y="525" class="text">lower_arm</text>
+
+  <!-- Tree Connections -->
+  <line x1="150" y1="440" x2="100" y2="500" class="connection"/>
+  <line x1="150" y1="440" x2="200" y2="500" class="connection"/>
+  <line x1="150" y1="440" x2="300" y2="450" class="connection"/>
+  <line x1="300" y1="490" x2="400" y2="500" class="connection"/>
+  <line x1="300" y1="490" x2="500" y2="450" class="connection"/>
+  <line x1="500" y1="490" x2="600" y2="500" class="connection"/>
+
+  <!-- Legend -->
+  <rect x="600" y="100" width="180" height="80" fill="none" stroke="#000"/>
+  <rect x="620" y="120" width="20" height="20" class="link"/>
+  <text x="650" y="135" class="label" text-anchor="start">Link</text>
+  <rect x="620" y="150" width="20" height="20" class="joint"/>
+  <text x="650" y="165" class="label" text-anchor="start">Joint</text>
+
+  <!-- Description -->
+  <text x="400" y="580" class="label">In URDF, links represent rigid bodies and joints define how they connect and move relative to each other.</text>
+</svg>

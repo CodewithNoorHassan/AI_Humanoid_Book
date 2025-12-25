@@ -1,0 +1,24 @@
+{
+  "id": "isaac-ai-brain/nav2-humanoid",
+  "title": "Nav2 for Humanoid Navigation",
+  "description": "Introduction to Humanoid Navigation",
+  "source": "@site/docs/isaac-ai-brain/nav2-humanoid.md",
+  "sourceDirName": "isaac-ai-brain",
+  "slug": "/isaac-ai-brain/nav2-humanoid",
+  "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/nav2-humanoid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/isaac-ai-brain/nav2-humanoid.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac ROS Accelerated Perception",
+    "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-ros"
+  },
+  "next": {
+    "title": "VLA Integration Home",
+    "permalink": "/Ai_Humanoid_Book/docs/vla-integration/"
+  }
+}

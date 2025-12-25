@@ -1,0 +1,24 @@
+{
+  "id": "vla-integration/voice-to-action",
+  "title": "Voice-to-Action Pipelines",
+  "description": "Overview",
+  "source": "@site/docs/vla-integration/voice-to-action.md",
+  "sourceDirName": "vla-integration",
+  "slug": "/vla-integration/voice-to-action",
+  "permalink": "/Ai_Humanoid_Book/docs/vla-integration/voice-to-action",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/voice-to-action.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/Ai_Humanoid_Book/docs/vla-integration/intro"
+  },
+  "next": {
+    "title": "LLM-Based Cognitive Planning",
+    "permalink": "/Ai_Humanoid_Book/docs/vla-integration/llm-planning"
+  }
+}

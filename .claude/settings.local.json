@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build)",
+      "Bash(dir \".specify\\\\scripts\\\\powershell\\\\update-agent-context.ps1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify\\\\scripts\\\\powershell\\\\update-agent-context.ps1\" -AgentType claude)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify\\\\scripts\\\\powershell\\\\update-agent-context.ps1\" -AgentType claude -h)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify\\\\scripts\\\\powershell\\\\check-prerequisites.ps1\" -Json)",
+      "Bash(dir \"docs\\\\vla-integration\")",
+      "Bash(dir \"docs\\\\isaac-ai-brain\\\\\")"
+    ]
+  }
+}

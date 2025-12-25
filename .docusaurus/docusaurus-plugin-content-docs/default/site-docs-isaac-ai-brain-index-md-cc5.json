@@ -1,0 +1,24 @@
+{
+  "id": "isaac-ai-brain/index",
+  "title": "Isaac AI Brain Module (NVIDIA Isaac™)",
+  "description": "This module covers advanced robot perception, navigation, and autonomy using NVIDIA Isaac and ROS 2. The focus is on Isaac Sim fundamentals, Isaac ROS accelerated perception/VSLAM, and Nav2-based humanoid navigation with clear learning outcomes for perception, training, and autonomous movement.",
+  "source": "@site/docs/isaac-ai-brain/index.md",
+  "sourceDirName": "isaac-ai-brain",
+  "slug": "/isaac-ai-brain/",
+  "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/isaac-ai-brain/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity for Human-Robot Interaction",
+    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/unity-interaction"
+  },
+  "next": {
+    "title": "Introduction to Isaac AI Brain (NVIDIA Isaac™)",
+    "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/intro"
+  }
+}

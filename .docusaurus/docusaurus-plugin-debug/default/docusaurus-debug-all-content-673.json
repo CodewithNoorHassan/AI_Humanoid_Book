@@ -1,0 +1,779 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/Ai_Humanoid_Book/docs",
+          "tagsPath": "/Ai_Humanoid_Book/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\4th Semester\\Hackathon_AI_Book\\sidebars.js",
+          "contentPath": "D:\\4th Semester\\Hackathon_AI_Book\\docs",
+          "contentPathLocalized": "D:\\4th Semester\\Hackathon_AI_Book\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "digital-twin/gazebo-physics",
+              "title": "Physics Simulation with Gazebo",
+              "description": "Introduction to Gazebo for Robotics",
+              "source": "@site/docs/digital-twin/gazebo-physics.md",
+              "sourceDirName": "digital-twin",
+              "slug": "/digital-twin/gazebo-physics",
+              "permalink": "/Ai_Humanoid_Book/docs/digital-twin/gazebo-physics",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/gazebo-physics.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to Digital Twins in Robotics",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/intro"
+              },
+              "next": {
+                "title": "Virtual Sensor Modeling",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/virtual-sensors"
+              }
+            },
+            {
+              "id": "digital-twin/glossary",
+              "title": "Glossary: Digital Twin Terminology",
+              "description": "Core Concepts",
+              "source": "@site/docs/digital-twin/glossary.md",
+              "sourceDirName": "digital-twin",
+              "slug": "/digital-twin/glossary",
+              "permalink": "/Ai_Humanoid_Book/docs/digital-twin/glossary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/glossary.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "digital-twin/index",
+              "title": "Digital Twin Module (Gazebo & Unity)",
+              "description": "This module covers the creation of digital twins in robotics using Gazebo for physics simulation and Unity for high-fidelity visual representation.",
+              "source": "@site/docs/digital-twin/index.md",
+              "sourceDirName": "digital-twin",
+              "slug": "/digital-twin/",
+              "permalink": "/Ai_Humanoid_Book/docs/digital-twin/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Glossary",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/glossary"
+              },
+              "next": {
+                "title": "Introduction to Digital Twins in Robotics",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/intro"
+              }
+            },
+            {
+              "id": "digital-twin/intro",
+              "title": "Introduction to Digital Twins in Robotics",
+              "description": "What is a Digital Twin?",
+              "source": "@site/docs/digital-twin/intro.md",
+              "sourceDirName": "digital-twin",
+              "slug": "/digital-twin/intro",
+              "permalink": "/Ai_Humanoid_Book/docs/digital-twin/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Digital Twin Module (Gazebo & Unity)",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/"
+              },
+              "next": {
+                "title": "Physics Simulation with Gazebo",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/gazebo-physics"
+              }
+            },
+            {
+              "id": "digital-twin/setup",
+              "title": "Prerequisites and Setup for Digital Twin Development",
+              "description": "System Requirements",
+              "source": "@site/docs/digital-twin/setup.md",
+              "sourceDirName": "digital-twin",
+              "slug": "/digital-twin/setup",
+              "permalink": "/Ai_Humanoid_Book/docs/digital-twin/setup",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/setup.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "digital-twin/unity-interaction",
+              "title": "Unity for Human-Robot Interaction",
+              "description": "Introduction to Unity for Robotics",
+              "source": "@site/docs/digital-twin/unity-interaction.md",
+              "sourceDirName": "digital-twin",
+              "slug": "/digital-twin/unity-interaction",
+              "permalink": "/Ai_Humanoid_Book/docs/digital-twin/unity-interaction",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/unity-interaction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Virtual Sensor Modeling",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/virtual-sensors"
+              },
+              "next": {
+                "title": "Isaac AI Brain Module (NVIDIA Isaac™)",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/"
+              }
+            },
+            {
+              "id": "digital-twin/virtual-sensors",
+              "title": "Virtual Sensor Modeling",
+              "description": "Introduction to Sensor Simulation",
+              "source": "@site/docs/digital-twin/virtual-sensors.md",
+              "sourceDirName": "digital-twin",
+              "slug": "/digital-twin/virtual-sensors",
+              "permalink": "/Ai_Humanoid_Book/docs/digital-twin/virtual-sensors",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/virtual-sensors.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Physics Simulation with Gazebo",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/gazebo-physics"
+              },
+              "next": {
+                "title": "Unity for Human-Robot Interaction",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/unity-interaction"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Introduction: The Future of AI-Humanoid Robotics",
+              "description": "Welcome to the AI-Humanoid Technical Book - your comprehensive guide to understanding and building next-generation humanoid robots that seamlessly integrate artificial intelligence, perception, navigation, and action systems. This book explores the cutting-edge intersection of AI and robotics, providing both theoretical foundations and practical implementations.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/Ai_Humanoid_Book/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Quick Start",
+                "permalink": "/Ai_Humanoid_Book/docs/quickstart"
+              }
+            },
+            {
+              "id": "isaac-ai-brain/index",
+              "title": "Isaac AI Brain Module (NVIDIA Isaac™)",
+              "description": "This module covers advanced robot perception, navigation, and autonomy using NVIDIA Isaac and ROS 2. The focus is on Isaac Sim fundamentals, Isaac ROS accelerated perception/VSLAM, and Nav2-based humanoid navigation with clear learning outcomes for perception, training, and autonomous movement.",
+              "source": "@site/docs/isaac-ai-brain/index.md",
+              "sourceDirName": "isaac-ai-brain",
+              "slug": "/isaac-ai-brain/",
+              "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/isaac-ai-brain/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Unity for Human-Robot Interaction",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/unity-interaction"
+              },
+              "next": {
+                "title": "Introduction to Isaac AI Brain (NVIDIA Isaac™)",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/intro"
+              }
+            },
+            {
+              "id": "isaac-ai-brain/intro",
+              "title": "Introduction to Isaac AI Brain (NVIDIA Isaac™)",
+              "description": "What is Isaac AI Brain?",
+              "source": "@site/docs/isaac-ai-brain/intro.md",
+              "sourceDirName": "isaac-ai-brain",
+              "slug": "/isaac-ai-brain/intro",
+              "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/isaac-ai-brain/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Isaac AI Brain Module (NVIDIA Isaac™)",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/"
+              },
+              "next": {
+                "title": "Isaac Sim Fundamentals",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-sim"
+              }
+            },
+            {
+              "id": "isaac-ai-brain/isaac-ros",
+              "title": "Isaac ROS Accelerated Perception",
+              "description": "Introduction to Isaac ROS",
+              "source": "@site/docs/isaac-ai-brain/isaac-ros.md",
+              "sourceDirName": "isaac-ai-brain",
+              "slug": "/isaac-ai-brain/isaac-ros",
+              "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-ros",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/isaac-ai-brain/isaac-ros.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Isaac Sim Fundamentals",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-sim"
+              },
+              "next": {
+                "title": "Nav2 for Humanoid Navigation",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/nav2-humanoid"
+              }
+            },
+            {
+              "id": "isaac-ai-brain/isaac-sim",
+              "title": "Isaac Sim Fundamentals",
+              "description": "Introduction to Isaac Sim",
+              "source": "@site/docs/isaac-ai-brain/isaac-sim.md",
+              "sourceDirName": "isaac-ai-brain",
+              "slug": "/isaac-ai-brain/isaac-sim",
+              "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-sim",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/isaac-ai-brain/isaac-sim.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to Isaac AI Brain (NVIDIA Isaac™)",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/intro"
+              },
+              "next": {
+                "title": "Isaac ROS Accelerated Perception",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-ros"
+              }
+            },
+            {
+              "id": "isaac-ai-brain/nav2-humanoid",
+              "title": "Nav2 for Humanoid Navigation",
+              "description": "Introduction to Humanoid Navigation",
+              "source": "@site/docs/isaac-ai-brain/nav2-humanoid.md",
+              "sourceDirName": "isaac-ai-brain",
+              "slug": "/isaac-ai-brain/nav2-humanoid",
+              "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/nav2-humanoid",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/isaac-ai-brain/nav2-humanoid.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Isaac ROS Accelerated Perception",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-ros"
+              },
+              "next": {
+                "title": "VLA Integration Home",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/"
+              }
+            },
+            {
+              "id": "quickstart",
+              "title": "Quick Start",
+              "description": "Get started with the AI-Humanoid Technical Book in minutes.",
+              "source": "@site/docs/quickstart.md",
+              "sourceDirName": ".",
+              "slug": "/quickstart",
+              "permalink": "/Ai_Humanoid_Book/docs/quickstart",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/quickstart.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction: The Future of AI-Humanoid Robotics",
+                "permalink": "/Ai_Humanoid_Book/docs/intro"
+              },
+              "next": {
+                "title": "ROS 2 as Robotic Nervous System",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/"
+              }
+            },
+            {
+              "id": "ros2-nervous-system/glossary",
+              "title": "Glossary of ROS 2 Terms",
+              "description": "This glossary provides definitions for key terms used throughout the ROS 2 as Robotic Nervous System module.",
+              "source": "@site/docs/ros2-nervous-system/glossary.md",
+              "sourceDirName": "ros2-nervous-system",
+              "slug": "/ros2-nervous-system/glossary",
+              "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/glossary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-nervous-system/glossary.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_label": "Glossary",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Humanoid Modeling with URDF",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/urdf-modeling"
+              },
+              "next": {
+                "title": "Digital Twin Module (Gazebo & Unity)",
+                "permalink": "/Ai_Humanoid_Book/docs/digital-twin/"
+              }
+            },
+            {
+              "id": "ros2-nervous-system/index",
+              "title": "ROS 2 as Robotic Nervous System",
+              "description": "Welcome to the ROS 2 as Robotic Nervous System module. This section explores how ROS 2 functions as a middleware nervous system that connects AI decision-making to physical robot control.",
+              "source": "@site/docs/ros2-nervous-system/index.md",
+              "sourceDirName": "ros2-nervous-system",
+              "slug": "/ros2-nervous-system/",
+              "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-nervous-system/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "ROS 2 as Robotic Nervous System",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Quick Start",
+                "permalink": "/Ai_Humanoid_Book/docs/quickstart"
+              },
+              "next": {
+                "title": "ROS 2 Fundamentals",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/ros2-fundamentals"
+              }
+            },
+            {
+              "id": "ros2-nervous-system/python-agents",
+              "title": "ROS 2 Communication with Python Agents",
+              "description": "This chapter explains how to bridge Python-based AI agents to robot controllers using client libraries, focusing on practical examples of AI-to-robot communication patterns.",
+              "source": "@site/docs/ros2-nervous-system/python-agents.md",
+              "sourceDirName": "ros2-nervous-system",
+              "slug": "/ros2-nervous-system/python-agents",
+              "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/python-agents",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-nervous-system/python-agents.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_label": "ROS 2 Communication with Python Agents",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ROS 2 Fundamentals",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/ros2-fundamentals"
+              },
+              "next": {
+                "title": "Humanoid Modeling with URDF",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/urdf-modeling"
+              }
+            },
+            {
+              "id": "ros2-nervous-system/ros2-fundamentals",
+              "title": "ROS 2 Fundamentals",
+              "description": "This chapter introduces the fundamental concepts of ROS 2 as a middleware nervous system that connects AI decision-making to physical robot control.",
+              "source": "@site/docs/ros2-nervous-system/ros2-fundamentals.md",
+              "sourceDirName": "ros2-nervous-system",
+              "slug": "/ros2-nervous-system/ros2-fundamentals",
+              "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/ros2-fundamentals",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-nervous-system/ros2-fundamentals.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "ROS 2 Fundamentals",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ROS 2 as Robotic Nervous System",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/"
+              },
+              "next": {
+                "title": "ROS 2 Communication with Python Agents",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/python-agents"
+              }
+            },
+            {
+              "id": "ros2-nervous-system/urdf-modeling",
+              "title": "Humanoid Modeling with URDF",
+              "description": "This chapter explains how humanoid robot structure is defined using URDF (Unified Robot Description Format), covering links, joints, and physical properties that define robot structure.",
+              "source": "@site/docs/ros2-nervous-system/urdf-modeling.md",
+              "sourceDirName": "ros2-nervous-system",
+              "slug": "/ros2-nervous-system/urdf-modeling",
+              "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/urdf-modeling",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-nervous-system/urdf-modeling.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Humanoid Modeling with URDF",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ROS 2 Communication with Python Agents",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/python-agents"
+              },
+              "next": {
+                "title": "Glossary",
+                "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/glossary"
+              }
+            },
+            {
+              "id": "vla-integration/capstone-project",
+              "title": "Capstone: Autonomous Humanoid with Voice Commands and Manipulation",
+              "description": "Overview",
+              "source": "@site/docs/vla-integration/capstone-project.md",
+              "sourceDirName": "vla-integration",
+              "slug": "/vla-integration/capstone-project",
+              "permalink": "/Ai_Humanoid_Book/docs/vla-integration/capstone-project",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/capstone-project.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Vision-Language-Action System Integration",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/vla-systems"
+              }
+            },
+            {
+              "id": "vla-integration/index",
+              "title": "Vision-Language-Action (VLA) Integration",
+              "description": "Welcome to Module 4",
+              "source": "@site/docs/vla-integration/index.md",
+              "sourceDirName": "vla-integration",
+              "slug": "/vla-integration/",
+              "permalink": "/Ai_Humanoid_Book/docs/vla-integration/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "VLA Integration Home",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Nav2 for Humanoid Navigation",
+                "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/nav2-humanoid"
+              },
+              "next": {
+                "title": "Voice-to-Action Pipelines",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/voice-to-action"
+              }
+            },
+            {
+              "id": "vla-integration/intro",
+              "title": "Introduction to Vision-Language-Action (VLA) Integration",
+              "description": "Overview",
+              "source": "@site/docs/vla-integration/intro.md",
+              "sourceDirName": "vla-integration",
+              "slug": "/vla-integration/intro",
+              "permalink": "/Ai_Humanoid_Book/docs/vla-integration/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "sidebar_label": "Introduction",
+                "sidebar_position": 0
+              }
+            },
+            {
+              "id": "vla-integration/llm-planning",
+              "title": "LLM-Based Cognitive Planning",
+              "description": "Overview",
+              "source": "@site/docs/vla-integration/llm-planning.md",
+              "sourceDirName": "vla-integration",
+              "slug": "/vla-integration/llm-planning",
+              "permalink": "/Ai_Humanoid_Book/docs/vla-integration/llm-planning",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/llm-planning.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Voice-to-Action Pipelines",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/voice-to-action"
+              },
+              "next": {
+                "title": "Vision-Language-Action System Integration",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/vla-systems"
+              }
+            },
+            {
+              "id": "vla-integration/vla-systems",
+              "title": "Vision-Language-Action System Integration",
+              "description": "Overview",
+              "source": "@site/docs/vla-integration/vla-systems.md",
+              "sourceDirName": "vla-integration",
+              "slug": "/vla-integration/vla-systems",
+              "permalink": "/Ai_Humanoid_Book/docs/vla-integration/vla-systems",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/vla-systems.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "LLM-Based Cognitive Planning",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/llm-planning"
+              },
+              "next": {
+                "title": "Capstone: Autonomous Humanoid with Voice Commands and Manipulation",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/capstone-project"
+              }
+            },
+            {
+              "id": "vla-integration/voice-to-action",
+              "title": "Voice-to-Action Pipelines",
+              "description": "Overview",
+              "source": "@site/docs/vla-integration/voice-to-action.md",
+              "sourceDirName": "vla-integration",
+              "slug": "/vla-integration/voice-to-action",
+              "permalink": "/Ai_Humanoid_Book/docs/vla-integration/voice-to-action",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/voice-to-action.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "VLA Integration Home",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/"
+              },
+              "next": {
+                "title": "LLM-Based Cognitive Planning",
+                "permalink": "/Ai_Humanoid_Book/docs/vla-integration/llm-planning"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "quickstart"
+              },
+              {
+                "type": "category",
+                "label": "ROS 2 as Robotic Nervous System",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "ros2-nervous-system/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ros2-nervous-system/ros2-fundamentals"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ros2-nervous-system/python-agents"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ros2-nervous-system/urdf-modeling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ros2-nervous-system/glossary"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 2: Digital Twin (Gazebo & Unity)",
+                "link": {
+                  "type": "doc",
+                  "id": "digital-twin/index"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "digital-twin/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "digital-twin/gazebo-physics"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "digital-twin/virtual-sensors"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "digital-twin/unity-interaction"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 3: Isaac AI Brain (NVIDIA Isaac™)",
+                "link": {
+                  "type": "doc",
+                  "id": "isaac-ai-brain/index"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "isaac-ai-brain/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "isaac-ai-brain/isaac-sim"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "isaac-ai-brain/isaac-ros"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "isaac-ai-brain/nav2-humanoid"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 4: Vision-Language-Action (VLA) Integration",
+                "link": {
+                  "type": "doc",
+                  "id": "vla-integration/index"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "vla-integration/voice-to-action"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "vla-integration/llm-planning"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "vla-integration/vla-systems"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "vla-integration/capstone-project"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/Ai_Humanoid_Book/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/Ai_Humanoid_Book/404",
+        "source": "@site/src/pages/404.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/Ai_Humanoid_Book/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

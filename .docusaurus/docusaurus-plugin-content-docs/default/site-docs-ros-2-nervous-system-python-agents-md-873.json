@@ -1,0 +1,28 @@
+{
+  "id": "ros2-nervous-system/python-agents",
+  "title": "ROS 2 Communication with Python Agents",
+  "description": "This chapter explains how to bridge Python-based AI agents to robot controllers using client libraries, focusing on practical examples of AI-to-robot communication patterns.",
+  "source": "@site/docs/ros2-nervous-system/python-agents.md",
+  "sourceDirName": "ros2-nervous-system",
+  "slug": "/ros2-nervous-system/python-agents",
+  "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/python-agents",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-nervous-system/python-agents.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "ROS 2 Communication with Python Agents",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Fundamentals",
+    "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/ros2-fundamentals"
+  },
+  "next": {
+    "title": "Humanoid Modeling with URDF",
+    "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/urdf-modeling"
+  }
+}

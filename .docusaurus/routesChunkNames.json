@@ -1,0 +1,172 @@
+{
+  "/Ai_Humanoid_Book/__docusaurus/debug-c87": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-docusaurus-debugb-38-023"
+    }
+  },
+  "/Ai_Humanoid_Book/__docusaurus/debug/config-4d5": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-docusaurus-debugb-38-023"
+    }
+  },
+  "/Ai_Humanoid_Book/__docusaurus/debug/content-56c": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-docusaurus-debugb-38-023"
+    },
+    "__props": "__props---ai-humanoid-book-docusaurus-debug-content-5-a-9-cc4"
+  },
+  "/Ai_Humanoid_Book/__docusaurus/debug/globalData-0ba": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-docusaurus-debugb-38-023"
+    }
+  },
+  "/Ai_Humanoid_Book/__docusaurus/debug/metadata-d6f": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-docusaurus-debugb-38-023"
+    }
+  },
+  "/Ai_Humanoid_Book/__docusaurus/debug/registry-128": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-docusaurus-debugb-38-023"
+    }
+  },
+  "/Ai_Humanoid_Book/__docusaurus/debug/routes-f97": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-docusaurus-debugb-38-023"
+    }
+  },
+  "/Ai_Humanoid_Book/404-b2d": {
+    "__comp": "__comp---site-src-pages-404-js-6-bb-277",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-404-a-74-82c"
+    },
+    "config": "config---ai-humanoid-book-4045-e-9-644"
+  },
+  "/Ai_Humanoid_Book/docs-ce8": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-docsaba-0c0"
+    }
+  },
+  "/Ai_Humanoid_Book/docs-c5d": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---ai-humanoid-book-docs-648-603"
+  },
+  "/Ai_Humanoid_Book/docs-f37": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/Ai_Humanoid_Book/docs/digital-twin/-1d0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-digital-twin-cd-9-9e5"
+  },
+  "/Ai_Humanoid_Book/docs/digital-twin/gazebo-physics-dec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-digital-twin-gazebo-physicsb-91-141"
+  },
+  "/Ai_Humanoid_Book/docs/digital-twin/glossary-66a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-digital-twin-glossary-5-f-7-665"
+  },
+  "/Ai_Humanoid_Book/docs/digital-twin/intro-7a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-digital-twin-introc-08-20c"
+  },
+  "/Ai_Humanoid_Book/docs/digital-twin/setup-30c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-digital-twin-setup-3-d-8-8d4"
+  },
+  "/Ai_Humanoid_Book/docs/digital-twin/unity-interaction-8b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-digital-twin-unity-interaction-221-13f"
+  },
+  "/Ai_Humanoid_Book/docs/digital-twin/virtual-sensors-2dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-digital-twin-virtual-sensors-979-d50"
+  },
+  "/Ai_Humanoid_Book/docs/intro-63c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-intro-0-e-3-0f1"
+  },
+  "/Ai_Humanoid_Book/docs/isaac-ai-brain/-8a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-isaac-ai-brain-cc-5-908"
+  },
+  "/Ai_Humanoid_Book/docs/isaac-ai-brain/intro-5a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-isaac-ai-brain-intro-7-a-1-6cd"
+  },
+  "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-ros-16e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-isaac-ai-brain-isaac-rosd-86-920"
+  },
+  "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-sim-9f0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-isaac-ai-brain-isaac-simc-3-b-f5f"
+  },
+  "/Ai_Humanoid_Book/docs/isaac-ai-brain/nav2-humanoid-a04": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-isaac-ai-brain-nav-2-humanoidacb-192"
+  },
+  "/Ai_Humanoid_Book/docs/quickstart-587": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-quickstart-807-90b"
+  },
+  "/Ai_Humanoid_Book/docs/ros2-nervous-system/-ad1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-ros-2-nervous-system-f-80-390"
+  },
+  "/Ai_Humanoid_Book/docs/ros2-nervous-system/glossary-2c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-ros-2-nervous-system-glossaryc-93-a1e"
+  },
+  "/Ai_Humanoid_Book/docs/ros2-nervous-system/python-agents-8e8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-ros-2-nervous-system-python-agents-873-30c"
+  },
+  "/Ai_Humanoid_Book/docs/ros2-nervous-system/ros2-fundamentals-cd3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-ros-2-nervous-system-ros-2-fundamentals-14-a-149"
+  },
+  "/Ai_Humanoid_Book/docs/ros2-nervous-system/urdf-modeling-d5f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-ros-2-nervous-system-urdf-modelinga-25-9f6"
+  },
+  "/Ai_Humanoid_Book/docs/vla-integration/-e08": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-vla-integration-5-cc-961"
+  },
+  "/Ai_Humanoid_Book/docs/vla-integration/capstone-project-b4a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-vla-integration-capstone-projectb-71-eda"
+  },
+  "/Ai_Humanoid_Book/docs/vla-integration/intro-0fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-vla-integration-intro-43-d-c39"
+  },
+  "/Ai_Humanoid_Book/docs/vla-integration/llm-planning-d72": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-vla-integration-llm-planning-198-90a"
+  },
+  "/Ai_Humanoid_Book/docs/vla-integration/vla-systems-cc7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-vla-integration-vla-systems-43-d-6e7"
+  },
+  "/Ai_Humanoid_Book/docs/vla-integration/voice-to-action-177": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---ai-humanoid-book-docs-vla-integration-voice-to-actionafb-997"
+  },
+  "/Ai_Humanoid_Book/-c58": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---ai-humanoid-book-404-a-74-82c"
+    },
+    "config": "config---ai-humanoid-book-4045-e-9-644"
+  }
+}

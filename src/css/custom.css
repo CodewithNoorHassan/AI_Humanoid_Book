@@ -1,0 +1,489 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Sci-fi inspired gentle color palette */
+:root {
+  --ifm-color-primary: #6366f1; /* Indigo */
+  --ifm-color-primary-dark: #4f46e5;
+  --ifm-color-primary-darker: #4338ca;
+  --ifm-color-primary-darkest: #3730a3;
+  --ifm-color-primary-light: #818cf8;
+  --ifm-color-primary-lighter: #a5b4fc;
+  --ifm-color-primary-lightest: #e0e7ff;
+  --ifm-color-secondary: #f8fafc;
+  --ifm-color-success: #10b981;
+  --ifm-color-info: #0ea5e9;
+  --ifm-color-warning: #f59e0b;
+  --ifm-color-danger: #ef4444;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(79, 70, 229, 0.2);
+
+  /* Sci-fi shadows and effects */
+  --ifm-global-shadow-lw: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --ifm-global-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --ifm-global-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --ifm-global-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --ifm-global-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Dark mode sci-fi theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6366f1;
+  --ifm-color-primary-darker: #4f46e5;
+  --ifm-color-primary-darkest: #4338ca;
+  --ifm-color-primary-light: #a5b4fc;
+  --ifm-color-primary-lighter: #c7d2fe;
+  --ifm-color-primary-lightest: #e0e7ff;
+  --ifm-color-secondary: #1e293b;
+  --docusaurus-highlighted-code-line-bg: rgba(129, 140, 248, 0.3);
+  --ifm-background-color: #0f172a; /* Dark blue background */
+  --ifm-background-surface-color: #1e293b;
+  --ifm-color-emphasis-0: rgba(255, 255, 255, 1);
+  --ifm-color-emphasis-100: rgba(255, 255, 255, 0.9);
+  --ifm-color-emphasis-200: rgba(255, 255, 255, 0.8);
+  --ifm-color-emphasis-300: rgba(255, 255, 255, 0.7);
+  --ifm-color-emphasis-400: rgba(255, 255, 255, 0.5);
+  --ifm-color-emphasis-500: rgba(255, 255, 255, 0.4);
+  --ifm-color-emphasis-600: rgba(255, 255, 255, 0.3);
+  --ifm-color-emphasis-700: rgba(255, 255, 255, 0.2);
+  --ifm-color-emphasis-800: rgba(255, 255, 255, 0.1);
+  --ifm-color-emphasis-900: rgba(255, 255, 255, 0.05);
+  --ifm-color-emphasis-1000: rgba(255, 255, 255, 0);
+}
+
+/* Glass navbar effect */
+.navbar {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
+  color: #6366f1 !important; /* Blue color */
+}
+
+.navbar__brand,
+.navbar__item,
+.navbar__link {
+  color: #6366f1 !important; /* Blue color */
+  font-weight: 500 !important;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: #4f46e5 !important; /* Darker blue on hover */
+  opacity: 0.9 !important;
+}
+
+.navbar__brand {
+  color: #6366f1 !important; /* Blue color */
+  font-weight: 700 !important;
+}
+
+[data-theme='dark'] .navbar {
+  background: rgba(15, 23, 42, 0.8) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  color: #818cf8 !important; /* Lighter blue for dark mode */
+}
+
+[data-theme='dark'] .navbar__brand,
+[data-theme='dark'] .navbar__item,
+[data-theme='dark'] .navbar__link {
+  color: #818cf8 !important; /* Lighter blue for dark mode */
+}
+
+[data-theme='dark'] .navbar__link:hover,
+[data-theme='dark'] .navbar__link--active {
+  color: #a5b4fc !important; /* Even lighter blue in dark mode on hover */
+}
+
+/* Mobile menu fixes */
+@media (max-width: 996px) {
+  .navbar-sidebar {
+    background: var(--ifm-navbar-background-color, #fff) !important;
+  }
+
+  .navbar-sidebar .navbar-sidebar__brand {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .navbar-sidebar .navbar-sidebar__items {
+    flex-direction: column !important;
+  }
+
+  .navbar-sidebar__item {
+    margin: 0.25rem 0 !important;
+  }
+
+  .navbar-sidebar .menu__list {
+    margin: 0 !important;
+  }
+
+  .navbar-sidebar .menu__list-item {
+    margin: 0.125rem 0 !important;
+  }
+
+  .navbar-sidebar .navbar__item,
+  .navbar-sidebar .navbar__link {
+    display: block !important;
+    padding: 0.75rem 1rem !important;
+  }
+}
+
+/* Enhanced button styles with sci-fi feel */
+.button {
+  border-radius: 0.75rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: var(--ifm-global-shadow-md) !important;
+  position: relative;
+  overflow: hidden;
+  border: none !important;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.button:hover::before {
+  left: 100%;
+}
+
+.button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: var(--ifm-global-shadow-xl) !important;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-darker)) !important;
+}
+
+.button--secondary {
+  background: linear-gradient(135deg, var(--ifm-color-emphasis-200), var(--ifm-color-emphasis-300)) !important;
+  color: var(--ifm-color-emphasis-900) !important;
+}
+
+/* Enhanced card styles with sci-fi glow */
+.card {
+  border: none !important;
+  box-shadow: var(--ifm-global-shadow-md) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  background: var(--ifm-color-emphasis-100) !important;
+  border-radius: 1rem !important;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .card {
+  background: rgba(30, 41, 59, 0.8) !important;
+  backdrop-filter: blur(10px);
+}
+
+.card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: var(--ifm-global-shadow-xl) !important;
+}
+
+/* Enhanced sidebar to match Docusaurus style */
+.menu {
+  padding: 1rem !important;
+}
+
+.menu__list {
+  margin: 0 !important;
+}
+
+.menu__list-item {
+  margin: 0.125rem 0 !important;
+}
+
+.menu__list-item-collapsible {
+  border-radius: 0.5rem !important;
+  margin: 0.125rem 0 !important;
+}
+
+.menu__link {
+  border-radius: 0.5rem !important;
+  margin: 0.125rem 0 !important;
+  padding: 0.75rem 1rem !important;
+  transition: all 0.2s ease !important;
+  font-weight: 500 !important;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-color-emphasis-200) !important;
+}
+
+[data-theme='dark'] .menu__link:hover {
+  background-color: var(--ifm-color-emphasis-200) !important;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: var(--ifm-color-primary-lightest) !important;
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600 !important;
+}
+
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist) {
+  background-color: var(--ifm-color-primary-darkest) !important;
+  color: var(--ifm-color-primary-lighter) !important;
+}
+
+/* Enhanced code blocks with sci-fi styling */
+.prism-code {
+  border-radius: 0.75rem !important;
+  font-size: 0.875rem !important;
+  line-height: 1.6 !important;
+  padding: 1.25rem !important;
+  box-shadow: var(--ifm-global-shadow-lw) !important;
+  background: var(--ifm-color-emphasis-100) !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+[data-theme='dark'] .prism-code {
+  background: var(--ifm-background-surface-color) !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+}
+
+/* Enhanced admonitions with sci-fi styling */
+.alert {
+  border: none !important;
+  border-radius: 0.75rem !important;
+  box-shadow: var(--ifm-global-shadow-lw) !important;
+  padding: 1.25rem !important;
+}
+
+.alert--info {
+  background-color: rgba(14, 165, 233, 0.1) !important;
+  border-left: 4px solid var(--ifm-color-info) !important;
+}
+
+.alert--success {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+  border-left: 4px solid var(--ifm-color-success) !important;
+}
+
+.alert--warning {
+  background-color: rgba(245, 158, 11, 0.1) !important;
+  border-left: 4px solid var(--ifm-color-warning) !important;
+}
+
+.alert--danger {
+  background-color: rgba(239, 68, 68, 0.1) !important;
+  border-left: 4px solid var(--ifm-color-danger) !important;
+}
+
+/* Enhanced typography with sci-fi feel */
+.markdown h1 {
+  font-weight: 800 !important;
+  font-size: 2.5rem !important;
+  margin-bottom: 1.5rem !important;
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-info));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.markdown h2 {
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+  margin-bottom: 1.25rem !important;
+  padding-top: 1.5rem !important;
+  border-bottom: 2px solid var(--ifm-color-emphasis-200) !important;
+  padding-bottom: 0.75rem !important;
+  color: var(--ifm-color-emphasis-900) !important;
+}
+
+.markdown h3 {
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  color: var(--ifm-color-emphasis-800) !important;
+}
+
+/* Enhanced table styles */
+.markdown table {
+  border-radius: 0.75rem !important;
+  overflow: hidden;
+  box-shadow: var(--ifm-global-shadow-lw) !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+.markdown table th,
+.markdown table td {
+  padding: 0.875rem 1.25rem !important;
+  border: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+/* Enhanced blockquotes */
+.markdown blockquote {
+  border-left: 4px solid var(--ifm-color-primary) !important;
+  background: linear-gradient(to right, var(--ifm-color-primary-lightest), transparent) !important;
+  border-radius: 0 0.75rem 0.75rem 0 !important;
+  padding: 1.25rem 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  font-style: italic !important;
+  position: relative !important;
+}
+
+.markdown blockquote::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 2px !important;
+  background: linear-gradient(90deg, var(--ifm-color-primary), transparent) !important;
+}
+
+/* Sci-fi themed feature cards */
+.featureSvg {
+  filter: drop-shadow(0 4px 6px rgba(79, 70, 229, 0.3)) !important;
+  transition: transform 0.3s ease !important;
+}
+
+.featureSvg:hover {
+  transform: scale(1.05) !important;
+}
+
+/* Sci-fi hover effects for links */
+.markdown a {
+  position: relative !important;
+  text-decoration: none !important;
+  color: var(--ifm-color-primary) !important;
+  transition: color 0.2s ease !important;
+}
+
+.markdown a::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  width: 0 !important;
+  height: 2px !important;
+  background: var(--ifm-color-primary) !important;
+  transition: width 0.3s ease !important;
+}
+
+.markdown a:hover::after {
+  width: 100% !important;
+}
+
+/* Enhanced hero banner */
+.heroBanner {
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest), var(--ifm-color-info)) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, var(--ifm-color-primary-darkest), #1e293b) !important;
+}
+
+.heroBanner::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.05) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 20%) !important;
+}
+
+/* Subtle animation for feature sections */
+.features {
+  background: var(--ifm-color-emphasis-50) !important;
+}
+
+[data-theme='dark'] .features {
+  background: rgba(15, 23, 42, 0.5) !important;
+}
+
+/* Custom styles for robotics content */
+.robotics-diagram {
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  border-radius: 0.75rem !important;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  text-align: center !important;
+  background: var(--ifm-color-emphasis-100) !important;
+  box-shadow: var(--ifm-global-shadow-lw) !important;
+  transition: all 0.3s ease !important;
+}
+
+.robotics-diagram:hover {
+  box-shadow: var(--ifm-global-shadow-md) !important;
+  transform: translateY(-2px) !important;
+}
+
+.ros-node {
+  display: inline-block !important;
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest), var(--ifm-color-primary-lighter)) !important;
+  border: 1px solid var(--ifm-color-primary) !important;
+  border-radius: 0.75rem !important;
+  padding: 0.75rem 1.25rem !important;
+  margin: 0.375rem !important;
+  font-size: 0.875rem !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.1) !important;
+}
+
+.ros-topic {
+  display: inline-block !important;
+  background: linear-gradient(135deg, var(--ifm-color-success-lightest), var(--ifm-color-success-lighter)) !important;
+  border: 1px solid var(--ifm-color-success) !important;
+  border-radius: 0.75rem !important;
+  padding: 0.75rem 1.25rem !important;
+  margin: 0.375rem !important;
+  font-size: 0.875rem !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.1) !important;
+}
+
+/* Footer with sci-fi gradient */
+.footer {
+  background: linear-gradient(135deg, var(--ifm-color-primary-darkest), var(--ifm-color-primary-darker)) !important;
+  color: white !important;
+  padding: 4rem 0 3rem 0 !important;
+  position: relative !important;
+}
+
+.footer::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.1) 0%, transparent 30%),
+    radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.1) 0%, transparent 30%) !important;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth !important;
+}

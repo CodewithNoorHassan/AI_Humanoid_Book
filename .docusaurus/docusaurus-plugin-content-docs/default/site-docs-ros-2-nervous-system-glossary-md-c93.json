@@ -1,0 +1,28 @@
+{
+  "id": "ros2-nervous-system/glossary",
+  "title": "Glossary of ROS 2 Terms",
+  "description": "This glossary provides definitions for key terms used throughout the ROS 2 as Robotic Nervous System module.",
+  "source": "@site/docs/ros2-nervous-system/glossary.md",
+  "sourceDirName": "ros2-nervous-system",
+  "slug": "/ros2-nervous-system/glossary",
+  "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-nervous-system/glossary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_label": "Glossary",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Humanoid Modeling with URDF",
+    "permalink": "/Ai_Humanoid_Book/docs/ros2-nervous-system/urdf-modeling"
+  },
+  "next": {
+    "title": "Digital Twin Module (Gazebo & Unity)",
+    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "digital-twin/virtual-sensors",
+  "title": "Virtual Sensor Modeling",
+  "description": "Introduction to Sensor Simulation",
+  "source": "@site/docs/digital-twin/virtual-sensors.md",
+  "sourceDirName": "digital-twin",
+  "slug": "/digital-twin/virtual-sensors",
+  "permalink": "/Ai_Humanoid_Book/docs/digital-twin/virtual-sensors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/virtual-sensors.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physics Simulation with Gazebo",
+    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/gazebo-physics"
+  },
+  "next": {
+    "title": "Unity for Human-Robot Interaction",
+    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/unity-interaction"
+  }
+}

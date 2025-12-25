@@ -1,0 +1,122 @@
+.robotContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.robotSvg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 136, 0.5));
+  transition: transform 0.1s ease;
+}
+
+.robotBody {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 0;
+  animation: scan 4s linear infinite;
+}
+
+.robotHead {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 0;
+  animation: scan 4s linear infinite;
+  animation-delay: 0.5s;
+}
+
+.robotArm, .robotLeg, .robotAntenna {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 0;
+  animation: scan 4s linear infinite;
+  animation-delay: 1s;
+}
+
+.robotEye, .robotMouth, .robotAntennaTip, .robotCore, .robotCoreLight {
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.robotEye {
+  animation: blink 6s infinite;
+}
+
+.robotMouth {
+  animation: scanMouth 3s infinite;
+}
+
+.robotGlow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 255, 136, 0.2) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.robotGlowActive {
+  opacity: 1;
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes scan {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes blink {
+  0%, 45%, 55%, 100% {
+    transform: scaleY(1);
+  }
+  48%, 52% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes scanMouth {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.5);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.3;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.6;
+  }
+}
+
+/* Hover effects */
+.robotContainer:hover .robotEye,
+.robotContainer:hover .robotMouth,
+.robotContainer:hover .robotAntennaTip,
+.robotContainer:hover .robotCoreLight {
+  animation-play-state: paused;
+}
+
+.robotContainer:hover .robotBody,
+.robotContainer:hover .robotHead,
+.robotContainer:hover .robotArm,
+.robotContainer:hover .robotLeg,
+.robotContainer:hover .robotAntenna {
+  animation-play-state: paused;
+}

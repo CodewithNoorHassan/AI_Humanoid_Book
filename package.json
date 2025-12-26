@@ -8,7 +8,8 @@
     "serve": "npx docusaurus serve",
     "clear": "npx docusaurus clear",
     "swizzle": "npx docusaurus swizzle",
-    "deploy": "npx docusaurus deploy"
+    "deploy": "npx docusaurus deploy",
+    "postinstall": "chmod -R +x node_modules/.bin"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",

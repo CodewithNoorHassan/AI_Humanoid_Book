@@ -5,7 +5,7 @@
   "source": "@site/docs/vla-integration/llm-planning.md",
   "sourceDirName": "vla-integration",
   "slug": "/vla-integration/llm-planning",
-  "permalink": "/Ai_Humanoid_Book/docs/vla-integration/llm-planning",
+  "permalink": "/docs/vla-integration/llm-planning",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/vla-integration/llm-planning.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Voice-to-Action Pipelines",
-    "permalink": "/Ai_Humanoid_Book/docs/vla-integration/voice-to-action"
+    "permalink": "/docs/vla-integration/voice-to-action"
   },
   "next": {
     "title": "Vision-Language-Action System Integration",
-    "permalink": "/Ai_Humanoid_Book/docs/vla-integration/vla-systems"
+    "permalink": "/docs/vla-integration/vla-systems"
   }
 }

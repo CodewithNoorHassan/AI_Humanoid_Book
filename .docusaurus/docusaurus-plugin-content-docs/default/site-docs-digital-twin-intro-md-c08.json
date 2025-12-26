@@ -5,7 +5,7 @@
   "source": "@site/docs/digital-twin/intro.md",
   "sourceDirName": "digital-twin",
   "slug": "/digital-twin/intro",
-  "permalink": "/Ai_Humanoid_Book/docs/digital-twin/intro",
+  "permalink": "/docs/digital-twin/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/intro.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Digital Twin Module (Gazebo & Unity)",
-    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/"
+    "permalink": "/docs/digital-twin/"
   },
   "next": {
     "title": "Physics Simulation with Gazebo",
-    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/gazebo-physics"
+    "permalink": "/docs/digital-twin/gazebo-physics"
   }
 }

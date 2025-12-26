@@ -1,4 +1,5 @@
 export default {
+  "0058b4c6": [() => import(/* webpackChunkName: "0058b4c6" */ "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json"), "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/docs-175.json")],
   "0e384e19": [() => import(/* webpackChunkName: "0e384e19" */ "@site/docs/intro.md"), "@site/docs/intro.md", require.resolveWeak("@site/docs/intro.md")],
   "14a7fd0c": [() => import(/* webpackChunkName: "14a7fd0c" */ "@site/docs/ros2-nervous-system/ros2-fundamentals.md"), "@site/docs/ros2-nervous-system/ros2-fundamentals.md", require.resolveWeak("@site/docs/ros2-nervous-system/ros2-fundamentals.md")],
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
@@ -11,7 +12,6 @@ export default {
   "5e95c892": [() => import(/* webpackChunkName: "5e95c892" */ "@theme/DocsRoot"), "@theme/DocsRoot", require.resolveWeak("@theme/DocsRoot")],
   "5e9f5e1a": [() => import(/* webpackChunkName: "5e9f5e1a" */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
   "5f7cceac": [() => import(/* webpackChunkName: "5f7cceac" */ "@site/docs/digital-twin/glossary.md"), "@site/docs/digital-twin/glossary.md", require.resolveWeak("@site/docs/digital-twin/glossary.md")],
-  "6480dc40": [() => import(/* webpackChunkName: "6480dc40" */ "@generated/docusaurus-plugin-content-docs/default/p/ai-humanoid-book-docs-81d.json"), "@generated/docusaurus-plugin-content-docs/default/p/ai-humanoid-book-docs-81d.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/ai-humanoid-book-docs-81d.json")],
   "6bb41b40": [() => import(/* webpackChunkName: "6bb41b40" */ "@site/src/pages/404.js"), "@site/src/pages/404.js", require.resolveWeak("@site/src/pages/404.js")],
   "7a193b56": [() => import(/* webpackChunkName: "7a193b56" */ "@site/docs/isaac-ai-brain/intro.md"), "@site/docs/isaac-ai-brain/intro.md", require.resolveWeak("@site/docs/isaac-ai-brain/intro.md")],
   "8070e160": [() => import(/* webpackChunkName: "8070e160" */ "@site/docs/quickstart.md"), "@site/docs/quickstart.md", require.resolveWeak("@site/docs/quickstart.md")],

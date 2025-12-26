@@ -5,7 +5,7 @@
   "source": "@site/docs/digital-twin/gazebo-physics.md",
   "sourceDirName": "digital-twin",
   "slug": "/digital-twin/gazebo-physics",
-  "permalink": "/Ai_Humanoid_Book/docs/digital-twin/gazebo-physics",
+  "permalink": "/docs/digital-twin/gazebo-physics",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/gazebo-physics.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction to Digital Twins in Robotics",
-    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/intro"
+    "permalink": "/docs/digital-twin/intro"
   },
   "next": {
     "title": "Virtual Sensor Modeling",
-    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/virtual-sensors"
+    "permalink": "/docs/digital-twin/virtual-sensors"
   }
 }

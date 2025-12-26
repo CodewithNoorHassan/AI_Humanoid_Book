@@ -13,8 +13,8 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "https://your-username.github.io",
-      "baseUrl": "/Ai_Humanoid_Book/"
+      "url": "https://ai-humanoid-book.vercel.app",
+      "baseUrl": "/"
     }
   }
 }

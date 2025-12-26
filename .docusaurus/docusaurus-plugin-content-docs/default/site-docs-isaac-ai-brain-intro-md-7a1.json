@@ -5,7 +5,7 @@
   "source": "@site/docs/isaac-ai-brain/intro.md",
   "sourceDirName": "isaac-ai-brain",
   "slug": "/isaac-ai-brain/intro",
-  "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/intro",
+  "permalink": "/docs/isaac-ai-brain/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/isaac-ai-brain/intro.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Isaac AI Brain Module (NVIDIA Isaac™)",
-    "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/"
+    "permalink": "/docs/isaac-ai-brain/"
   },
   "next": {
     "title": "Isaac Sim Fundamentals",
-    "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/isaac-sim"
+    "permalink": "/docs/isaac-ai-brain/isaac-sim"
   }
 }

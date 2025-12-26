@@ -5,7 +5,7 @@
   "source": "@site/docs/digital-twin/unity-interaction.md",
   "sourceDirName": "digital-twin",
   "slug": "/digital-twin/unity-interaction",
-  "permalink": "/Ai_Humanoid_Book/docs/digital-twin/unity-interaction",
+  "permalink": "/docs/digital-twin/unity-interaction",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/digital-twin/unity-interaction.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Virtual Sensor Modeling",
-    "permalink": "/Ai_Humanoid_Book/docs/digital-twin/virtual-sensors"
+    "permalink": "/docs/digital-twin/virtual-sensors"
   },
   "next": {
     "title": "Isaac AI Brain Module (NVIDIA Isaac™)",
-    "permalink": "/Ai_Humanoid_Book/docs/isaac-ai-brain/"
+    "permalink": "/docs/isaac-ai-brain/"
   }
 }

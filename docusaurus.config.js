@@ -10,10 +10,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://ai-humanoid-book.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Ai_Humanoid_Book/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'your-username', // Usually your GitHub org/user name.

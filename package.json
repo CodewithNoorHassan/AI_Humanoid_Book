@@ -3,14 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "prebuild": "npm install",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve"
+    "start": "npx docusaurus start",
+    "build": "npx docusaurus build",
+    "serve": "npx docusaurus serve",
+    "clear": "npx docusaurus clear",
+    "swizzle": "npx docusaurus swizzle",
+    "deploy": "npx docusaurus deploy"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
@@ -38,6 +36,6 @@
     ]
   },
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   }
 }
